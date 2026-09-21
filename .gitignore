@@ -33,3 +33,6 @@ data/
 *.db-*
 build/
 dist/
+
+# Local visual QA artifacts
+docs/dashboard.webp

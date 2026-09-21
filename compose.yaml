@@ -1,0 +1,13 @@
+services:
+  axiom:
+    build: .
+    ports:
+      - "127.0.0.1:8000:8000"
+    env_file: .env
+    environment:
+      AXIOM_DATABASE_PATH: /app/data/axiom.db
+    volumes:
+      - axiom-data:/app/data
+    restart: unless-stopped
+volumes:
+  axiom-data:
