@@ -1,0 +1,8 @@
+{
+  "source": "synthetic-demo",
+  "url": "https://example.com/axiom/demo-earnings",
+  "title": "Example company reports quarterly earnings",
+  "body": "Synthetic fixture for testing ingestion, not real financial news.",
+  "published_at": "2026-09-12T14:00:00Z",
+  "tickers": ["DEMO"]
+}

@@ -27,3 +27,9 @@ htmlcov/
 
 # Logs
 *.log
+# Local data and build output
+data/
+*.db
+*.db-*
+build/
+dist/
